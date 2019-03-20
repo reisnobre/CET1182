@@ -1,0 +1,16 @@
+#home{
+  #events{
+    .event{
+      background: white;
+      padding: 1rem;
+      @extend %mediumBox;
+      border-radius: 0.25rem;
+      h5{
+        margin-top: 0;
+        margin-bottom: 0;
+        display: inline-block;
+      }
+      // a
+    }
+  }
+}

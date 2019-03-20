@@ -1,0 +1,37 @@
+.btn, button{
+  background: $highlight;
+  color: $darkTextColor;
+  border-radius: 0.25rem;
+  @include card(1);
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease-in-out;
+  display: inline-block;
+  position: relative;
+  &._round{
+    border-radius: 8px;
+  }
+  &:hover{
+    @include card(2);
+  }
+  &.__disabled{
+    text-decoration: line-through;
+    filter: saturate(0.5);
+    &:hover{
+      @include card(1);
+    }
+  }
+  &.__hasIcon{
+    padding-left: 4rem !important;
+    i{
+      position: absolute;
+      left: 2rem;
+      top: calc(50% - 12px);
+    }
+  }
+  &.__small{
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+  }
+}

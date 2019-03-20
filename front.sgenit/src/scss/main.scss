@@ -1,0 +1,30 @@
+// 1 - Tools
+@import '1-tools/toast';
+@import '1-tools/normalize';
+@import '1-tools/juice';
+
+// 2 - Globals
+
+@import '2-global/functions';
+@import '2-global/mixins';
+@import '2-global/vars';
+@import '2-global/extends';
+@import '2-global/body-element';
+@import '2-global/typography';
+@import '2-global/buttons';
+@import '2-global/keyframes';
+@import '2-global/vue-transitions';
+@import '2-global/loaders';
+@import '2-global/fonts';
+@import '2-global/buefy-overrides';
+
+// 3 - Modules
+@import '3-modules/common/header';
+
+
+// 4 - pages
+@import '4-pages/index';
+@import '4-pages/login';
+@import '4-pages/home';
+@import '4-pages/dashboard';
+@import '4-pages/event';

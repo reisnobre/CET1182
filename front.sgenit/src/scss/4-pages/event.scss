@@ -1,0 +1,12 @@
+@import "../3-modules/event";
+
+#singUp{
+  .wrapper{
+    background: white;
+    @extend %mediumBox;
+  }
+  .innerWrapper{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

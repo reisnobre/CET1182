@@ -1,0 +1,24 @@
+.input,.textarea {
+  &:focus{
+    border-color: $primary;
+  }
+}
+
+.icon.is-primary{
+  color: $primary !important;
+}
+
+.button.is-primary{
+  background-color: $primary;
+  transition: all 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  &:hover{
+    background-color: $highlight;
+  }
+}
+
+.select:not(.is-multiple)::after, .select select:focus{
+  border-color: $primary;
+  &:focus{
+    border: 1px solid $primaryT2;
+  }
+}

@@ -1,0 +1,49 @@
+.page{
+
+}
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  &.paddingLess{
+    padding: 0 1rem;
+  }
+}
+
+.subWrapper{
+  @extend .wrapper;
+  background: white;
+}
+
+.subPage{
+  min-height: calc(100vh - 223px);
+  h4{
+    margin-top: 1rem;
+  }
+}
+
+.page{
+  .wrapper{
+  }
+}
+
+.vibrant-canvas{
+  display: none;
+}
+
+.__hasIcon{
+  position: relative;
+  padding-left: 2rem;
+  i{
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+  }
+}
+
+
+@media print {
+  #mainHeader, #dashboardHeader, button, .btn{
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+@import "../3-modules/home";
+
+#home{
+  min-height: calc(100vh - 97px);
+}
+#events{
+  .innerWrapper{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

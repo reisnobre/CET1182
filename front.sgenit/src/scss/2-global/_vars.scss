@@ -1,0 +1,45 @@
+// 50 shades of gray
+
+$blackOne: #111;
+$grayOne: #333;
+$grayTwo: #666;
+$grayFour: rgba(0,0,0,0.09);
+
+$defTextColor: white;
+$defTextColorOpaque: $grayTwo;
+$darkTextColor: $blackOne;
+$links: #2196f3;
+$linksVisited: #9c27b0;
+$defBackgroundColor: #F5F5F5;
+
+// color schema @ https://coolors.co/f15a24-162944-999999-ffffff-ffffff
+
+$primary: #2E385D;
+$primaryT1: #827EA4;
+$primaryT2: #465366;
+$secondary: #A38E96;
+$secondaryT1: #E1C9C9;
+$highlight: #F5C78F;
+
+$success: #77dd77;
+$fail: #ff6666;
+
+// Thema 2
+
+/*
+$primary: #2A2563;
+$primaryT1: #8F278E;
+$primaryT2: #4681A6;
+$secondary: #01D5BC;
+$secondaryT1: #E1C9C9;
+$highlight: #F9268D;
+*/
+
+$advocacy: #465366;
+
+
+
+$mediumBP: $toast-breakpoint-medium;
+$smallBP: $toast-breakpoint-small;
+
+$defBR: 0.125rem;
