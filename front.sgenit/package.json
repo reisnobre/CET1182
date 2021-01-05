@@ -10,7 +10,7 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "buefy": "^0.7.0",
     "moment": "^2.22.2",
     "node-vibrant": "^3.0.0",
