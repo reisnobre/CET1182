@@ -35,7 +35,7 @@
     "@vue/test-utils": "^1.0.0-beta.16",
     "chai": "^4.1.2",
     "favicons-webpack-plugin": "^0.0.9",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "prerender-spa-plugin": "^3.4.0",
     "sass-loader": "^7.0.1",
     "vue-svg-loader": "^0.11.0",
